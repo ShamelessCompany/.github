@@ -1,0 +1,54 @@
+name: "⚙️ [Célula 1] Tarea de Código, Cloud, Scraper o Micro-SaaS"
+description: "Crear una tarea de ingeniería (Backend, Astro pSEO, Plugins Godot/Blender, Bots o Cloud $0/mes)"
+title: "[CODE] "
+labels: ["squad-1-code", "sprint-backlog"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### ⚙️ Especificación de Ingeniería — ShamelessCompany (`Célula 1: P1 + P2`)
+        Recuerda que esta tarea solo suma puntos (**1, 3 o 5 pts**) cuando el Pull Request pasa revisión y queda desplegado en **`🚀 Publicado / Monetizando`**.
+
+  - type: dropdown
+    id: points
+    attributes:
+      label: "💎 Valor en Puntos (Slicing Pie)"
+      description: "Selecciona la complejidad acordada antes de iniciar el Sprint:"
+      options:
+        - "1 Punto (~2-3h: Script puntual, scraper simple, fix o componente UI)"
+        - "3 Puntos (~6-10h: Bot de Telegram en producción, módulo de plugin, integración API/DB)"
+        - "5 Puntos (~15-20h: Portal pSEO completo en Cloudflare Pages, Plugin Godot/Blender Pro, Nodo Cloud)"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: project_stream
+    attributes:
+      label: "📂 Proyecto / Canal de Monetización"
+      options:
+        - "Infraestructura Cloud $0/mes (Oracle ARM / Cloudflare R2 / D1)"
+        - "Portal Programmatic SEO (Astro + Cloudflare Pages + AdSense/Afiliados)"
+        - "Producto Open-Core (Plugin Godot 4 / Add-on Blender en Payhip/Superhive)"
+        - "Micro-SaaS / Bot Telegram (Checkout en Lemon Squeezy / Stripe)"
+        - "Automatización Interna (GitHub Actions / Scrapers)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: objective
+    attributes:
+      label: "🎯 Objetivo Técnico y Entregable Exacto"
+      description: "¿Qué debe hacer exactamente este código y dónde quedará desplegado?"
+      placeholder: "Ej: Desplegar scraper en GitHub Actions que actualice la tabla de precios en Cloudflare D1 cada lunes a las 06:00 UTC."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: dod
+    attributes:
+      label: "✅ Criterios de Aceptación (Definition of Done)"
+      options:
+        - label: "El código corre con $0.00 USD de costo fijo mensual (Free Tier verificado)."
+        - label: "Sin credenciales ni API keys expuestas en el código (uso de GitHub Secrets / `.env`)."
+        - label: "Probado y revisado por el compañero de célula antes de hacer merge a `main`."
+        - label: "URL de producción o binario verificable adjunto en el cierre del Issue."

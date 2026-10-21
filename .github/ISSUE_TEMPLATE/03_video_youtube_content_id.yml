@@ -1,0 +1,53 @@
+name: "🎬 [Célula 3] Producción de Video YouTube, Content ID, Remotion o Clipping"
+description: "Crear una tarea de producción de video (The Dumbest Dev, Documental Tech, Factoría Content ID o Whop)"
+title: "[VIDEO] "
+labels: ["squad-3-youtube", "sprint-backlog"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 🎬 Pipeline de Producción Audiovisual y Content ID — ShamelessCompany (`Célula 3: P5 + P6`)
+        Recuerda aplicar siempre las **Reglas Estrictas Anti-Buzzwords** de la bóveda y verificar la inclusión de nuestra pista registrada en **Content ID (>30 segundos continuos)**.
+
+  - type: dropdown
+    id: points
+    attributes:
+      label: "💎 Valor en Puntos (Slicing Pie)"
+      options:
+        - "1 Punto (~2-3h: Lote de clips validados para Whop/Shorts o 1 pista original enviada a RouteNote/DistroKid)"
+        - "3 Puntos (~6-10h: Guion + edición completa de Episodio Largo con Remotion/Discount Rig o Lote de 5 videos automatizados)"
+        - "5 Puntos (~15-20h: Despliegue completo de Factoría Headless en servidor ARM o Serie Documental con producto Payhip)"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: format
+    attributes:
+      label: "📺 Formato y Canal"
+      options:
+        - "Canal Principal (English-First): Reto 'The Dumbest Dev' ($10 -> $1,000 USD)"
+        - "Canal Principal (English-First): Documental Técnico con Remotion + Discount Rig"
+        - "Factoría Automatizada 24/7: Video con Pista Propia Content ID (>30s) + Loop 3D"
+        - "Whop Content Rewards / Shorts: Clipping con Método Reddit (Presupuesto >35%)"
+        - "Registro Musical: Pista 100% Original en SunVox/BandLab -> RouteNote/DistroKid"
+    validations:
+      required: true
+
+  - type: textarea
+    id: hook_and_title
+    attributes:
+      label: "🪝 3 Opciones de Título y Gancho de los Primeros 5 Segundos"
+      description: "Ningún video se graba ni renderiza sin definir primero el título y los 3 bocetos de miniatura:"
+      placeholder: "Título A: ...\nTítulo B: ...\nGancho [0:00-0:05]: Dato numérico comprobable en pantalla."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: video_checklist
+    attributes:
+      label: "✅ Checklist de Publicación y Monetización Dual"
+      options:
+        - label: "3 bocetos de miniatura subidos a YouTube Studio (herramienta 'Probar y comparar' A/B)."
+        - label: "Guion verificado con CERO palabras vacías (sin 'revolucionario', 'mina de oro', 'libertad financiera')."
+        - label: "Incluye pista musical propia registrada en Content ID durante más de 30 segundos continuos."
+        - label: "Configurado en `Video Language: English (US)` con enlaces a nuestra tienda Payhip/itch.io en la descripción."

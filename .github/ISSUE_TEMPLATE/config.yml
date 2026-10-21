@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: "📋 Tablero Central de Sprints (GitHub Projects)"
+    url: "https://github.com/orgs/ShamelessCompany/projects"
+    about: "Revisa el estado de todas las tareas activas de las 3 células y los puntos acumulados del mes."
+  - name: "📘 Manual Operativo y Reglas de Puntos (shameless-hq-ops)"
+    url: "https://github.com/ShamelessCompany/shameless-hq-ops"
+    about: "Consulta el manual de las 6 personas, arquitectura de Discord, correos corporativos y reparto 20/80."

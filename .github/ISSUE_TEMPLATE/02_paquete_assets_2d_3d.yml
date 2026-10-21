@@ -1,0 +1,52 @@
+name: "🎨 [Célula 2] Paquete de Game Assets 2D/3D, Stock Video 4K o Kit Visual"
+description: "Crear un entregable de Arte 3D (Blender/Fab), Pixel Art 2D (itch.io/Payhip), Stock 4K o Miniaturas/Poses"
+title: "[ASSET] "
+labels: ["squad-2-art", "sprint-backlog"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 🎨 Especificación de Arte Técnico y Activos — ShamelessCompany (`Célula 2: P3 + P4`)
+        ⚠️ **Regla de Archivos Pesados:** No subas archivos `.blend`, `.wav` ni renders `.mp4` de más de 50 MB directamente al repositorio Git. Súbelos al bucket de **Cloudflare R2 / TeraBox Cifrado** y pega el enlace aquí.
+
+  - type: dropdown
+    id: points
+    attributes:
+      label: "💎 Valor en Puntos (Slicing Pie)"
+      options:
+        - "1 Punto (~2-3h: 3 bocetos de miniatura YouTube, actualización de poses Discount Rig o 5 props simples)"
+        - "3 Puntos (~6-10h: Pack completo Pixel Art UI/Tileset en itch.io/Payhip o lote de 15 clips Stock 4K)"
+        - "5 Puntos (~15-20h: Pack modular de 30-50 Props Low-Poly en Fab Store o Generador Procedural Blender)"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: asset_type
+    attributes:
+      label: "📦 Tipo de Activo y Tienda de Destino"
+      options:
+        - "Pack 3D Low-Poly Modular (Paleta 256x256px) -> Fab Store (88%) + itch.io"
+        - "Pack 2D Pixel Art (16x16 / 32x32 UI o Tileset) -> itch.io + Payhip (95%)"
+        - "Lote de Stock Video 4K / Loops Procedurales -> Adobe Stock + Fondos YouTube"
+        - "Kit Visual YouTube (3 Bocetos Miniatura + Poses Discount Rig PNG) -> Célula 3"
+        - "Iconos 3D Procedurales / Shaders -> Payhip + Gumroad"
+    validations:
+      required: true
+
+  - type: textarea
+    id: specs
+    attributes:
+      label: "📐 Especificaciones Técnicas (Resolución, Paleta, Formato)"
+      placeholder: "Ej: 35 props de oficina Cyberpunk low-poly, textura única atlas 256x256px, pivotes en base, exportados en .glb y probados en Godot 4."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: "✅ Checklist de Calidad Antes de Publicar"
+      options:
+        - label: "Geometría/Sprites limpios, nombres en inglés y colisiones/transparencias verificadas."
+        - label: "Metadatos IPTC/EXIF o descripción SEO en inglés lista (usando script `exiftool` si es Stock 4K)."
+        - label: "Imágenes promocionales / portada atractiva renderizada para la tienda."
+        - label: "Enlace del producto publicado en vivo (Fab / itch.io / Payhip / Adobe Stock) adjunto al cerrar."
