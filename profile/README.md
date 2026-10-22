@@ -1,7 +1,7 @@
 # Shameless Company
 
 Organizacion de desarrollo de software, produccion de video y recursos graficos.
-Estructura de trabajo en equipo dividida en 4 repositorios principales.
+Estructura de trabajo en equipo dividida en repositorios por area y proyectos especificos.
 
 ---
 
@@ -38,6 +38,16 @@ Sistema de agentes y scrapers para automatizar la busqueda y postulacion a contr
 - Generador de prompts para correos de contacto directo personalizados.
 - Adaptador de hoja de vida en formato limpio (ATS de 1 columna) segun los requisitos de la vacante.
 - Bot de alertas de nuevas empresas que buscan aprendices en el area.
+
+---
+
+## Nuevos proyectos en desarrollo
+
+### 5. [app-para-tiendas](https://github.com/ShamelessCompany/app-para-tiendas)
+Repositorio para el desarrollo de aplicacion orientada a tiendas y pequenos comercios.
+
+### 6. [software-para-personas-con-discapacidad-auditiva](https://github.com/ShamelessCompany/software-para-personas-con-discapacidad-auditiva)
+Repositorio para el desarrollo de herramientas y software de accesibilidad y comunicacion para personas con discapacidad auditiva.
 
 ---
 
