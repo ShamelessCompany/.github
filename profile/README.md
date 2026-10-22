@@ -1,7 +1,7 @@
 # Shameless Company
 
 Organizacion de desarrollo de software, produccion de video y recursos graficos.
-Estructura de trabajo en equipo dividida en 3 repositorios principales.
+Estructura de trabajo en equipo dividida en 4 repositorios principales.
 
 ---
 
@@ -30,6 +30,14 @@ Herramientas de software, bots y paginas web ligeras que automatizan procesos o 
 - Monitor de pasarelas de pago colombianas (Wompi y PSE) con Playwright.
 - Micro-APIs serverless para generacion rapida de facturas PDF y validacion de correos.
 - Bots de RPA para automatizar tareas repetitivas en oficinas y pequenos negocios.
+
+### 4. [sgva-contract-agent](https://github.com/ShamelessCompany/sgva-contract-agent)
+Sistema de agentes y scrapers para automatizar la busqueda y postulacion a contratos de aprendizaje en el portal SGVA (Caprendizaje SENA).
+- Extractor automatico de convocatorias y enlaces directos de vacantes de aprendizaje.
+- Investigador de contexto empresarial a partir del nombre o NIT de la empresa.
+- Generador de prompts para correos de contacto directo personalizados.
+- Adaptador de hoja de vida en formato limpio (ATS de 1 columna) segun los requisitos de la vacante.
+- Bot de alertas de nuevas empresas que buscan aprendices en el area.
 
 ---
 
