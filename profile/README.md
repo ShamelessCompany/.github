@@ -44,10 +44,20 @@ Sistema de agentes y scrapers para automatizar la busqueda y postulacion a contr
 ## Nuevos proyectos en desarrollo
 
 ### 5. [app-para-tiendas](https://github.com/ShamelessCompany/app-para-tiendas)
-Repositorio para el desarrollo de aplicacion orientada a tiendas y pequenos comercios.
+Software ligero de punto de venta (POS) y control de inventario local para tiendas de barrio y minimercados.
+- Punto de venta rapido para mostrador compatible con lector de codigo de barras USB.
+- Control de inventario en SQLite con alertas de stock minimo y lista de compras para proveedores.
+- Calculadora de vueltas y cobro digital en pantalla con codigos QR de Nequi y Bancolombia.
+- Cierre diario de caja con resumen de ganancias y respaldo automatico anti-perdida.
+- Catalogo web estatico para pedidos por WhatsApp alojado en Cloudflare Pages.
 
 ### 6. [software-para-personas-con-discapacidad-auditiva](https://github.com/ShamelessCompany/software-para-personas-con-discapacidad-auditiva)
-Repositorio para el desarrollo de herramientas y software de accesibilidad y comunicacion para personas con discapacidad auditiva.
+Herramientas tecnologicas de accesibilidad para personas sordas o con hipoacusia en educacion, trabajo y atencion presencial.
+- Subtitulador flotante en tiempo real 100% offline para clases y videollamadas con Whisper y Vosk.
+- Detector visual de alertas sonoras del entorno (timbres, alarmas, llamados).
+- Asistente de comunicacion bidireccional en pantalla dividida para citas medicas y ventanillas bancarias.
+- Extension de navegador para subtitulos forzados en cualquier reproductor web.
+- Diccionario y visualizador interactivo de Lengua de Senas.
 
 ---
 
